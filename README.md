@@ -34,4 +34,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # mcq
+
+## What is this?
+
+MCQ is a web application that allows you to create multiple choice questions from a csv file.
+
+## CSV source format
+
+The CSV file should be in the following format:
+
+```csv
+Question,Option1,Option2,Option3,...,OptionN,Correct Option
+```
+
+For example:
+
+```csv
+What is the capital of France?,Paris,London,Berlin,Madrid,Paris
+Which animal is known as the "ship of the desert"?,Camel,Horse,Elephant,Lion,Camel
+How many planets are there in the solar system?,8,9,10,11,8
+```
+
+## How to use
+
+1. Clone the repository
+2. Run `npm install` (or `yarn install` or `pnpm install`)
+3. Run `npm run dev` (or `yarn dev` or `pnpm dev`)
+4. Open [http://localhost:3000](http://localhost:3000) with your browser.
+5. Upload a CSV file with the format mentioned above.
